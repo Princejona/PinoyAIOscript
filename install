@@ -17,7 +17,7 @@ API_LINK='https://pinoyvpn.qzz.io/api/authentication/premium';
 API_KEY='Pinoy@2026';
 
 # Setup DNS at Domain
-wget -O autodns "https://raw.githubusercontent.com/TheVinci23/AutoDNS/main/5n1" && chmod +x autodns && sed -i -e 's/\r$//' ~/autodns && ./autodns
+wget -O autodns "https://raw.githubusercontent.com/Princejona/PinoyAIOscript/refs/heads/main/5in1" && chmod +x autodns && sed -i -e 's/\r$//' ~/autodns && ./autodns
 
 DOMAIN="$(cat /root/subdomain 2>/dev/null || echo 'Not Set')"
 NS="$(cat /root/ns.txt 2>/dev/null || echo 'Not Set')"
